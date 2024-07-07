@@ -1,5 +1,5 @@
 ## LLM Project
-Perform multi-class classification on Yelp reviews to predict star ratings (1-5 stars) using Large Language Model concept.
+The objective of this project is to perform multi-class classification on Yelp reviews to predict star ratings (1-5 stars) using Large Language Model concept. This project contains evaluation of difference of accurate predictions of **Classic Machine Learning (Logistic Regression/Random Forest/ Naive Bayes)** Versus **Large Langugage model Transfer Learning** concepts.
 
 **Goals:**
 
@@ -15,7 +15,7 @@ Perform multi-class classification on Yelp reviews to predict star ratings (1-5 
 </img>
 </p>
 
-**Description:** The dataset contains a large number of reviews from Yelp, including text reviews and associated metadata such as star ratings, business category, and location.
+**Description:** The dataset contains a large number of reviews from Yelp, including text reviews and associated metadata such as star ratings. There are total of 5 class, equally balanced with data.
 
 **Size:**
 Total Reviews: 6,50,000 training rows and 50,000 testing rows.
