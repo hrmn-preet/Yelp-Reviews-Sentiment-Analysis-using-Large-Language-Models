@@ -98,9 +98,11 @@ The logistic regression gave 54.98% accuracy which is lower than pre-trained mod
 </img>
 </p>
 
-## Relevant Links: Include the following links:
+## Relevant Links:
+
+**The fine-tuned and optimized model**
 <p align="center">
-<img width="80%" src="https://github.com/hrmn-preet/llm-project/blob/main/images/model.png">
+[<img width="80%" src="https://github.com/hrmn-preet/llm-project/blob/main/images/model.png">](https://huggingface.co/harmanpreet-kaur/yelp-review-sentiment-analysis-model-1)
 </img>
 </p>
 
