@@ -97,3 +97,11 @@ The logistic regression gave 54.98% accuracy which is lower than pre-trained mod
 <img src="https://github.com/hrmn-preet/llm-project/blob/main/images/lr.png" width="50%">
 </img>
 </p>
+
+## Relevant Links: Include the following links:
+<p align="center">
+<img width="80%" src="https://github.com/hrmn-preet/llm-project/blob/main/images/model.png">
+</img>
+</p>
+
+**The Training and evaluation data can be found [here](https://huggingface.co/datasets/Yelp/yelp_review_full)** 
