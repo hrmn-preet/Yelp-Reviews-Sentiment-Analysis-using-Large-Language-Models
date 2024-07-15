@@ -1,4 +1,4 @@
-## LLM Project
+## Yelp Reviews Sentiment Analysis using Large Language Models
 The objective of this project is to perform multi-class classification on Yelp reviews to predict star ratings (1-5 stars) using Large Language Model concept. This project contains evaluation of difference of accurate predictions of **Classic Machine Learning (Logistic Regression/Random Forest/ Naive Bayes)** Versus **Large Langugage model Transfer Learning** concepts.
 
 **Goals:**
