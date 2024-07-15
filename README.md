@@ -1,5 +1,5 @@
 ## Yelp Reviews Sentiment Analysis using Large Language Models
-The objective of this project is to perform multi-class classification on Yelp reviews to predict star ratings (1-5 stars) using Large Language Model concept. This project contains evaluation of difference of accurate predictions of **Classic Machine Learning (Logistic Regression/Random Forest/ Naive Bayes)** Versus **Large Langugage model Transfer Learning** concepts.
+The objective of this project is to perform multi-class classification on Yelp reviews to predict star ratings (1-5 stars) using the Large Language Model concept. This project contains an evaluation of the difference in accurate predictions of **Classic Machine Learning (Logistic Regression/Random Forest/ Naive Bayes)** Versus **Large Language model Transfer Learning** concepts.
 
 **Goals:**
 
@@ -15,7 +15,7 @@ The objective of this project is to perform multi-class classification on Yelp r
 </img>
 </p>
 
-**Description:** The dataset contains a large number of reviews from Yelp, including text reviews and associated metadata such as star ratings. There are total of 5 class, equally balanced with data.
+**Description:** The dataset contains a large number of reviews from Yelp, including text reviews and associated metadata such as star ratings. There are a total of 5 classes, equally balanced with data.
 
 **Size:**
 Total Reviews: 6,50,000 training rows and 50,000 testing rows.
@@ -37,7 +37,7 @@ For testing
 - 5-Stars / Class 4 - 10,000 rows
 
 
-**Star Rating:** The rating given by the user (1 to 5 stars).
+**Star Rating:** The rating is given by the user (1 to 5 stars).
 Industry Category: The business category (e.g., Restaurants, Shopping, Health & Medical).
 
 **Preprocessing:** 
@@ -77,7 +77,7 @@ The pre-trained model is fine-tuned on the Yelp Review dataset to adapt it for t
 
 **Epochs:** Model yielded better results with 2 epochs
 
-**Warmup Steps:** The fine tuned model does not have any warm steps initialised but optimized model yielded best results on warmup steps of 200.
+**Warmup Steps:** The fine-tuned model does not have any warm steps initialized but the optimized model yielded the best results on warmup steps of 200.
 
 ## Optimization:
 
@@ -89,9 +89,9 @@ The pre-trained model is fine-tuned on the Yelp Review dataset to adapt it for t
 
 **Warmup Steps:** Used a warmup phase to gradually increase the learning rate at the beginning of training, helping the model to stabilize.
 
-## Logistic Regression Results on manual tokenized dataset
+## Logistic Regression Results on the manual tokenized dataset
 
-The logistic regression gave 54.98% accuracy which is lower than pre-trained model. The tokenization and preprocessing was done manually.
+The logistic regression gave 54.98% accuracy which is lower than the pre-trained model. The tokenization and preprocessing were done manually.
 
 <p align="center" margin-top="20px" margin-bottom="20px">
 <img src="https://github.com/hrmn-preet/llm-project/blob/main/images/lr.png" width="50%">
